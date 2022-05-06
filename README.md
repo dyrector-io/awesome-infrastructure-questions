@@ -2,13 +2,17 @@
 
 # Awesome Infrastructure Questions [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> 💻  A curated awesome list of infrastructure questions.
+We at dyrector.io curated this list of briefing questions that need to be cleared to lay out a game plan to work on a client's infrastructure, migrate applications to the cloud and so on.
+
+Feel free to use them to better understand what needs to be done.
 
 [What makes for an awesome list?](AWESOME.md)
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
-### Questions
+---
+
+## Questions
 
 **Infrastructure-Specific questions**
 
