@@ -1,10 +1,12 @@
+![Awesome Infrastructure Questions](/docs/CoverPicture.jpeg "Awesome Infrastructure Questions")
+
 # Awesome Infrastructure Questions [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > 💻  A curated awesome list of infrastructure questions.
 
-[What makes for an awesome list?](awesome.md)
+[What makes for an awesome list?](AWESOME.md)
 
-Please read the [contribution guidelines](contributing.md) if you want to contribute.
+Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
 ### Questions
 
