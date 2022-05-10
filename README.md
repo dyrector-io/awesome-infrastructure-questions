@@ -2,9 +2,11 @@
 
 # Awesome Infrastructure Questions [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-We at dyrector.io curated this list of briefing questions that need to be cleared to lay out a game plan to work on a client's infrastructure, migrate applications to the cloud and so on.
+We wish we had asked our first clients these questions during sysadmin onboarding. We curated this list based on our experience with clients.
 
-Feel free to use them to better understand what needs to be done.
+This list of questions serves as a checklist for sysadmins and ops staff. It's extremely useful for newly onboarded teams without knowledge and understanding of an application's structure and features.
+
+These questions can serve as a base to have a better understanding of what your ops staff will be dealing with.
 
 [What makes for an awesome list?](AWESOME.md)
 
@@ -41,7 +43,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 **Team-Specific questions**
 
--   Who big is your team?
+-   How big is your team?
 -   In your team do you have DevOps Engineers?
 -   Who is responsible for issuing and maintaining SSL certificates at your company?
 
