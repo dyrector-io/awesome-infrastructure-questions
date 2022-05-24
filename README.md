@@ -1,6 +1,10 @@
 ![Awesome Infrastructure Questions](/docs/CoverPicture.jpeg "Awesome Infrastructure Questions")
 
-# Awesome Infrastructure Questions [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Infrastructure Questions 
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github)](CONTRIBUTING.md)
+
 
 We wish we had asked our first clients these questions during sysadmin onboarding. We curated this list based on our experience with clients.
 
