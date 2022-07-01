@@ -22,6 +22,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 **Infrastructure-Specific questions**
 
+-   Where is your data center located?
 -   Where do you host your application: on-premises, in a cloud or in a hybrid environment?
 -   Have you set up an Infrastructure as a Code approach? If so, please specify.
 -   Have you set up a Configuration Management approach? If so, please specify.
@@ -33,6 +34,8 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Do you have key metrics? Please describe it.
 -   Did you perform performance tests before provisioning your infrastructure?
 -   Do you have any disaster recovery strategies in place for the infrastructure?
+-   What is the level of data center redundancy?
+-   What is the level of Internet access redundancy?
 
 **Application-Specific questions**
 
@@ -44,12 +47,17 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Does your application require multi-region infrastructure?
 -   What release strategies does your company use?
 -   How do you communicate with customers about important changes to your platform or processes?
+-   Does the application log user access activity?
+-   Does the application force new users to change their password upon first login?
+-   Does the application support Multi-Factor Authentication?
+-   Does the application provide API documentation?
 
 **Team-Specific questions**
 
 -   How big is your team?
 -   In your team do you have DevOps Engineers?
 -   Who is responsible for issuing and maintaining SSL certificates at your company?
+-   Is there a scheduled maintenance window? If yes, what is the frequency?
 
 **Security-Specific questions**
 
@@ -57,6 +65,12 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   How often do you perform third-party penetration tests on this application and when was the last one?
 -   Do you have any static code analysis in your pipelines?
 -   Do you have any security/vulnerability analysis in your pipelines?
+-   Is there a hardware-based firewall that protects your data from the Internet?
+-   Is there virus protection on the servers?
+-   How promptly are security patches applied?
+-   Does your organization use a third-party security assessment firm for penetration testing? If so, please provide a Letter of Attestation or proof of services rendered.
+-   Do you have a documented software development lifecycle process (SDLC), and is security integrated into this process?
+-   What application security methods (e.g. application level firewall or database auditing) are used?
 
 **Data-Specific questions**
 
@@ -78,6 +92,13 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Any backup processes?
 -   How many copies of your data are stored, where are they stored, and are they encrypted?
 -   Do you have disaster recovery processes?
+
+**Disaster Recovery Continuity**
+- Do you have a business continuity/disaster recovery plan?
+- How often do you test your BCP/DRP?
+- Backups and Failover - How long is the backup history maintained?
+- Can the database be restored to a specific day and time?
+- Do you have a documented Incident Response Plan?
 
 **USA related**
 
