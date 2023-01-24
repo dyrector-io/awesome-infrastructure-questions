@@ -22,6 +22,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 **Infrastructure-Specific questions**
 
+-   How many data centers do you have around the world?
 -   Where is your data center located?
 -   Where do you host your application: on-premises, in a cloud or in a hybrid environment?
 -   Have you set up an Infrastructure as a Code approach? If so, please specify.
@@ -36,6 +37,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Do you have any disaster recovery strategies in place for the infrastructure?
 -   What is the level of data center redundancy?
 -   What is the level of Internet access redundancy?
+-   Do you separate zones and regions?
 
 **Application-Specific questions**
 
@@ -45,6 +47,8 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Have you set up a CI/CD process? If so, what tools did you use?
 -   What version control system (VCS) do you use? Which branching strategies are in use? What triggers the CD/CD process?
 -   Does your application require multi-region infrastructure?
+-   Does your application use edge infrastructure e.g. CDN or DDoS protection?
+-   Who manages external IP and DNS, how do they map to your application?
 -   What release strategies does your company use?
 -   How do you communicate with customers about important changes to your platform or processes?
 -   Does the application log user access activity?
@@ -58,6 +62,11 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   In your team do you have DevOps Engineers?
 -   Who is responsible for issuing and maintaining SSL certificates at your company?
 -   Is there a scheduled maintenance window? If yes, what is the frequency?
+-   How many different teams or organizations contribute to or depend on your your infrastructure?
+-   Do you have a separate customer support team? Can they access or change the infrastructure?
+-   Do you use third party vendors, if so which ones, and do you have support contracts with those in place?
+-   What is your best and worst case request and approval process for infrastructure changes?
+-   Who monitors cost, budgeting and funding of the infrastructure? Is that part of approvals or changes?
 
 **Security-Specific questions**
 
@@ -71,6 +80,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Does your organization use a third-party security assessment firm for penetration testing? If so, please provide a Letter of Attestation or proof of services rendered.
 -   Do you have a documented software development lifecycle process (SDLC), and is security integrated into this process?
 -   What application security methods (e.g. application level firewall or database auditing) are used?
+-   How is the infrastructure and application platform accessed for admin and maintenance, e.g. do you use SSH?
+-   Where, how and by whom are user and system accounts and keys managed?
+-   How are permissions managed, e.g. are authentication and authorization different systems, do you have short-term access tokens for breakglass, do you log all admin and superuser access with justifications?
 
 **Data-Specific questions**
 
@@ -92,13 +104,18 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 -   Any backup processes?
 -   How many copies of your data are stored, where are they stored, and are they encrypted?
 -   Do you have disaster recovery processes?
+-   Do you have data residency requirements e.g. GDPR?
+-   Do you handle personally identifiable information (PII) that requires special controls?
 
 **Disaster Recovery Continuity**
-- Do you have a business continuity/disaster recovery plan?
-- How often do you test your BCP/DRP?
-- Backups and Failover - How long is the backup history maintained?
-- Can the database be restored to a specific day and time?
-- Do you have a documented Incident Response Plan?
+-   Do you have a business continuity/disaster recovery plan?
+-   How often do you test your BCP/DRP?
+-   Backups and Failover - How long is the backup history maintained?
+-   Can the database be restored to a specific day and time (RTO and RPO)?
+-   Do you have a documented Incident Response Plan?
+-   Who gets paged in case of an infrastructure incident?
+-   Do you have geographical requirements for DR (e.g. distance)?
+-   Are your application backends and frontends stateful to the region or work independently (hot vs cold standby)?
 
 **USA related**
 
